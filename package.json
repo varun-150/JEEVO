@@ -1,22 +1,35 @@
 {
-  "name": "jeevo---comprehensive-healthcare-technology-platform",
+  "name": "jeevo-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@google/genai": "^1.27.0"
+    "react-router-dom": "^7.0.0",
+    "axios": "^1.6.2",
+    "zustand": "^4.5.0",
+    "@tanstack/react-query": "^5.28.0",
+    "tailwindcss": "^3.4.1",
+    "zod": "^3.22.4",
+    "react-hook-form": "^7.50.0",
+    "@hookform/resolvers": "^3.3.4",
+    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
   }
 }
